@@ -10,7 +10,6 @@ vue2
 webpack2
 vue-router2
 axios
-less
 
 后端
 node
@@ -39,9 +38,12 @@ mongoDB
 
 有任何问题可以在这里提issue
 可以加本人QQ: 695850246. 暗号是: vqlai
+
 some tips:
 未接入后端前,前端使用mock数据
 
 更新日志
+
+2017/2/18  这是在测试
 
 2017/2/18  更新本项目README
