@@ -44,6 +44,8 @@ some tips:
 
 更新日志
 
+2017/2/21  添加了education与experience页面
+
 2017/2/19  添加数据mock，并且使用axios异步加载数据mock
 
 2017/2/19  添加导航，添加about模块
