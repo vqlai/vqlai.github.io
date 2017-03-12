@@ -32,7 +32,7 @@ mongoDB
 
   5. npm run dev
 
-  6. 浏览器打开 localhost:1060
+  6. 浏览器打开 localhost:1008
 
 交流
 
@@ -43,6 +43,8 @@ some tips:
 未接入后端前,前端使用mock数据
 
 更新日志
+
+2017/3/12  页面优化，更好的兼容手机端
 
 2017/2/21  添加了education与experience页面
 
