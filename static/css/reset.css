@@ -107,3 +107,4 @@ body {
 
     
   }*/
+.text_hidden{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
