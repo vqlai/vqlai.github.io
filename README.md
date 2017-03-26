@@ -10,6 +10,8 @@ vue2
 webpack2
 vue-router2
 axios
+vue-awesome-swiper
+vue-spinner
 
 后端
 node
@@ -44,7 +46,7 @@ some tips:
 
 更新日志
 
-2017/3/26  增加页面的预加载和置顶功能，交互优化
+2017/3/26  增加页面的预加载和置顶功能，使用vue-spinner，vue-awesome-swiper优化交互
 
 2017/3/21  新增footer联系页面
 
