@@ -14,8 +14,7 @@ vue-awesome-swiper
 vue-spinner
 
 后端
-node
-mongoDB
+本人主要玩前端，后端是通过json文件加载数据
 
 起手式
 
@@ -36,6 +35,9 @@ mongoDB
 
   6. 浏览器打开 localhost:1008
 
+DEMO
+访问地址:<a href="http://vqlai.github.io">resume</a>
+  
 交流
 
 有任何问题可以在这里提issue
