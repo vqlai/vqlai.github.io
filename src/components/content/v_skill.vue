@@ -1,7 +1,7 @@
 <template>
-  <div class="v_skill_wrapper" id="skills">
+  <div class="v_skill_wrapper" id="skill">
     <div class="v_skill">
-      <span class="tip">WHERE I DID</span>
+      <span class="tip">WHAT CAN I</span>
       <h1>{{title}}</h1>
       <span class="border one"></span>
       <div class="s_wrapper">
@@ -50,7 +50,7 @@ export default {
   name: 'v_skill',
   data () {
       return {
-           title: 'Skills',
+           title: '我的技能',
            skills: {}
       }
   },
@@ -65,12 +65,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <!-- json文件里不能使用//注释，webpack编译器编译不了 -->
 <style scoped>
-  .v_skill_wrapper{background-color: #f2f2f5;}
+  .v_skill_wrapper{background-color: #f5f5f5;}
   .v_skill{height: auto;max-width: 1200px;margin: 0 auto;padding:1.2rem 0;}
   .v_skill p{font-size: .4rem;color:#2F2C06;text-align: left;}
-  h1{padding-bottom: .4rem;font-family: 'Overlock', cursive;color: #03a9f4;font-size:.6rem;}
-  .tip{display:inline-block;position:relative;padding: .1rem .2rem;margin-bottom:.2rem;font-size: .3rem;background:#03a9f4;color: #fff;}
-  .tip:after{position:absolute;width: 0;height: 0;left:0.24rem;bottom:-0.14rem;content: '';border-style: solid;border-width: 0.2rem 0.2rem 0 0.2rem;border-color: #03a9f4 transparent;}
+  h1{padding: .2rem 0 .3rem;font-family: 'Overlock', cursive;color: #2F2C06;font-size:.5rem;}
+  .tip{display:block;position:relative;width:16%;height:.6rem;line-height:.6rem;margin:0 auto .2rem;font-size: .3rem;background:#03a9f4;color: #fff;}
+  .tip:after{position:absolute;width: 0;height: 0;left:42%;bottom:-0.14rem;content: '';border-style: solid;border-width: 0.2rem 0.2rem 0 0.2rem;border-color: #03a9f4 transparent;}
   .border{display:block;width: 20%;height: 1px;position:relative;margin:0 auto 1rem;background: #8C8989;}
   .border:after{position: absolute;top: 0;left: 30%;content: " ";width: 40%;height: .1rem;margin-top:-.05rem;background: #03a9f4;}
 

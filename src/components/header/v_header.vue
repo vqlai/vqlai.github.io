@@ -1,5 +1,5 @@
 <template>
-  <div class="v_header">
+  <div class="v_header" id="header">
     <div class="v_container">
       <div class="v_banner">
         <div class="v_headpic"><img src="./headpic.jpg" alt=""></div>
@@ -43,7 +43,7 @@ export default {
 <style scoped>
   .v_header{width:100%;height:auto;background: url('./v_banner.jpg') no-repeat center 0px;background-size: cover;color:#fff;}
   .v_container{width:100%;height:auto;background: url('./v_dott.png') repeat;}
-  .v_banner{max-width: 1200px;padding: 2.8rem 0;margin: 0 auto;}
+  .v_banner{max-width: 1200px;padding: 2rem 0;margin: 0 auto;}
   .v_headpic{float:left;width: 40%;text-align: center;}
   .v_headpic img{width: 74%;border: 5px solid rgba(255, 255, 255, 0.68);}
   .v_baseinfo{float:right;width: 60%;text-align: left;}

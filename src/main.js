@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.config.productionTip = false
 
@@ -12,6 +13,7 @@ Vue.config.debug = true
 // 添加全局插件/函数
 Vue.prototype.$axios = axios
 
+Vue.use(VueAwesomeSwiper)
 // Vue.use(echart);
 /* eslint-disable no-new */
 new Vue({

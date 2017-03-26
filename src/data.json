@@ -8,6 +8,18 @@
     "address": "深圳市罗湖区东晓街道太白路",
     "website": "http://vqlai.github.io"
   },
+  "skills": [
+    {"type": "html/html5","percent": "90%"},
+    {"type": "js/jquery","percent": "80%"},
+    {"type": "css/css3","percent": "80%"},
+    {"type": "sass/less","percent": "60%"},
+    {"type": "photoshop","percent": "90%"},
+    {"type": "bootstrap","percent": "80%"},
+    {"type": "swiper","percent": "80%"},
+    {"type": "seajs","percent": "80%"},
+    {"type": "vuejs","percent": "60%"},
+    {"type": "java/jsp","percent": "50%"}
+  ] ,
   "seller": {
     "name": "粥品香坊（回龙观）",
     "description": "蜂鸟专送",
