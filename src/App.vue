@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <transition name="fade">
-      <div v-if="!hidden">
+      <div v-show="!hidden">
         <!-- <img src="./assets/logo.png"> -->
         <!-- 标签不能用下划线，只能用- -->
         <v-header :baseInfo="baseInfo"></v-header>
         <!-- <v-nav></v-nav> -->
-        <v-about></v-about>
+        <v-about v-if="!hidden"></v-about>
         <v-experience></v-experience>
         <v-skill></v-skill>
         <v-project></v-project>
@@ -17,8 +17,8 @@
         </transition>
       </div>
   </transition>
-  <loader :loading="loading" :color="color" :size="size" v-if="hidden"></loader>
-  <p class="loadText" v-if="hidden">数据加载中...</p>
+  <loader :loading="loading" :color="color" :size="size" v-if="hidden" :style="{marginTop: loadTop + 'px'}"></loader>
+  <p class="loadText" v-if="hidden">loading</p>
   </div>
 </template>
 
@@ -44,8 +44,9 @@ export default {
       topshow: false,
       hidden: true,
       color: '#03a9f4',
-      size: '2rem',
-      loading: true
+      size: '3rem',
+      loading: true,
+      loadTop: 100
     }
   },
   created: function() {
@@ -75,6 +76,7 @@ export default {
     setTimeout(function() {
       _this.hidden = false
     }, 3000)
+    this.loadTop = window.screen.height * 0.28
   },
   // 监听数据模型变化
   watch: {
@@ -87,7 +89,7 @@ export default {
       document.body.scrollTop = 0
     },
     showTop: function() {
-      if (document.body.scrollTop > 1000) {
+      if (document.body.scrollTop > document.body.scrollTop * 0.8) {
         this.topshow = true
       } else {
         this.topshow = false
@@ -104,8 +106,8 @@ export default {
 
 <style>
 #app {font-family: 'Avenir', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-align: center; color: #2c3e50; width: 100%; position: relative;}
-#app .topBtn{width: 1rem;height: .9rem;position: fixed;bottom:15%;right:6%;content: '';background: url('./assets/image/top.png') no-repeat 50% top;cursor: pointer;} 
-#app .topBtn:hover{background-position: 50% bottom}
+#app .topBtn{width: 1rem;height: 1rem;position: fixed;bottom:15%;right:6%;content: '';background: url('./assets/image/top.png') no-repeat 50% -10%;cursor: pointer;} 
+#app .topBtn:hover{}
 /* loading样式 */
 .v-spinner{display:inline-block;margin: 16% auto 0;}
 .loadText{font-size: .3rem;text-align: center;margin-top: 2%;color: #03a9f4;}

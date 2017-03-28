@@ -8,7 +8,6 @@
       	<swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
           <swiper-slide>
-            <!-- <h2>Hi! I'm <span>Rob Lee</span></h2> -->
             <p>您在找前端工程师？？</p>
           </swiper-slide>
           <swiper-slide>
@@ -24,17 +23,6 @@
           <div class="swiper-button-next" slot="button-next"></div>
           <div class="swiper-scrollbar"   slot="scrollbar"></div> -->
         </swiper>
-      	<!-- <div class="a_right">
-      		<ul>
-      			<h3>Awards</h3>
-      			<li> Lorem ipsum dolor sit amet cingelit </li>
-      			<li> Lorem ipsum dolor sit amet cingelit </li>
-      			<li> Lorem ipsum dolor sit amet cingelit </li>
-      			<li> Lorem ipsum dolor sit amet cingelit </li>
-      			<li> Lorem ipsum dolor sit amet cingelit </li>
-      		</ul>
-      	</div>
-        <div class="clearfix"></div> -->
       </div>
     </div>
   </div>
@@ -107,18 +95,10 @@ export default {
   .border{display:block;width: 20%;height: 1px;position:relative;margin:0 auto 1rem;background: #8C8989;}
   .border:after{position: absolute;top: 0;left: 30%;content: " ";width: 40%;height: .1rem;margin-top:-.05rem;background: #03a9f4;}
   .a_info{font-size: .3rem;text-align: left;}
-  .a_info .a_left{float: left;width: 60%;}
-  .a_info .a_right{float: right;width: 40%;}
   .swiper-container{width: 100%;height: 5rem;overflow: hidden;text-align: center;overflow: hidden;}
   .swiper-slide{width:100%;height:100%;text-align: center;line-height: 5rem;}
   .swiper-container-horizontal > .swiper-pagination-bullets{bottom: 0;}
-  /*双边框*/
-  .a_info ul{width:66%;margin:0 auto;padding:.5rem 0;border: 4px double #03a9f4;}
-  .a_info ul li{margin: .5rem .4rem 0 .4rem;}
-  .a_info h3{text-align: center;}
-  /*清楚浮动*/
-  .clearfix:before{display: table;content: "";}
-  .clearfix:after{clear: both;display: table;content: "";}
+
   /*1像素边框*/
   .border_1px{position: relative;}
   .border_1px:after{display: block;position: absolute;left: 0;bottom: 0;width: 100%;border: 1px solid rgba(51, 51, 255, 0.6);content: ' '}

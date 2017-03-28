@@ -30,7 +30,6 @@ export default {
   //   this.myResult = val;//②监听外部对props属性result的变更，并同步到组件内的data属性myResult中
   //   },
   //   myResult(val){
-  //   //xxcanghai 小小沧海 博客园
   //   this.$emit("on-result-change",val);//③组件内对myResult变更后向外部发送事件通知
   //   }
   // }

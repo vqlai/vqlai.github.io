@@ -1,6 +1,5 @@
 <template>
   <div class="v_web">
-    	<!-- <h1>{{title}}</h1> -->
     	<ol>
     		<li><img src="./web1.jpg" alt=""></li>
     		<li><img src="./web1.jpg" alt=""></li>
@@ -24,7 +23,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-	.v_web{height: auto;max-width: 1200px;margin: 0 auto;/* padding:1rem 0; */}
+	.v_web{height: auto;max-width: 1200px;margin: 0 auto;}
 	h1{margin-bottom:1rem;padding-bottom:.4rem;font-family: 'Overlock', cursive;color: #03a9f4;}
 	ol{width: 100%;}
 	ol li{float: left;font-size: .4rem;width: 22%;margin-right:3%;height: 80%;box-sizing: border-box;transition: transform .25s ease;}
