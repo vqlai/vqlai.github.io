@@ -37,7 +37,7 @@ vue-spinner
 
 DEMO
 
-访问地址: <a href="https://vqlai.github.io/dist/#/">resume</a>
+访问地址: <a href="https://vqlai.github.io/dist/#/" target="_blank">resume</a>
   
 交流
 
