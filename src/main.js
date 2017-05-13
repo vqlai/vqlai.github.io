@@ -9,7 +9,7 @@ import VueParticles from 'vue-particles'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 // 引人公共样式
-import './assets/css/reset.css'
+// import './assets/css/reset.css'
 
 // 关闭生产模式下给出的提示
 Vue.config.productionTip = true
