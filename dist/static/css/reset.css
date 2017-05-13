@@ -2,6 +2,7 @@
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
+ /*放在static文件夹下不会被压缩构建，跟放在assets不一样，assets下的文件会被压缩打包构建，建议不要将文件放在static里*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

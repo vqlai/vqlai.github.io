@@ -1,6 +1,7 @@
 <template>
   <div class="v_header" id="header">
     <div class="v_container">
+       <slot></slot>
       <div class="v_banner">
         <div class="v_headpic"><img src="./headpic.jpg" alt=""></div>
         <div class="v_baseinfo">
@@ -42,9 +43,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .v_header{width:100%;height:auto;background: url('./v_banner.jpg') no-repeat center 0px;background-size: cover;color:#fff;}
-  .v_container{width:100%;height:auto;background: url('./v_dott.png') repeat;}
+  .v_container{width:100%;height:auto;background: url('./v_dott.png') repeat;position: relative;}
   .v_banner{max-width: 1200px;padding: 2rem 0;margin: 0 auto;}
-  .v_headpic{float:left;width: 40%;text-align: center;}
+  .v_headpic{float:left;width: 40%;text-align: center;position: relative;z-index: 10;}
   .v_headpic img{width: 74%;border: 5px solid rgba(255, 255, 255, 0.68);}
   .v_baseinfo{float:right;width: 60%;text-align: left;}
   .v_baseinfo h5{position:relative;display:inline-block;padding:0.1rem 0.5rem;font-size: 0.4rem;color:#fff;background-color: #03a9f4;font-family: 'Overlock', cursive;vertical-align: top;
@@ -57,6 +58,14 @@ export default {
   .v_baseinfo ul li{font-size:.3rem;margin-top: .5rem;}
   .v_baseinfo b{display:inline-block;font-family: 'Overlock', cursive;margin-right:.5rem;}
   .v_baseinfo ul li span:hover{color: #03a9f4;}
+    #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10.5rem;
+    z-index: 1; 
+  }
   /*清除浮动*/
   .clearfix:before{display: table;content: "";box-sizing: border-box;}
   .clearfix:after{clear: both;display: table;content: "";box-sizing: border-box;}

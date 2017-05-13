@@ -4,69 +4,58 @@
 
 技术栈
 
-前端
-es6
-vue2
-webpack2
-vue-router2
-axios
-vue-awesome-swiper
-vue-spinner
+前端 es6 vue2 webpack2 vue-router2 axios vue-awesome-swiper vue-spinner
 
-后端
-本人主要玩前端，后端是通过mock数据进行数据模拟加载
+后端 本人主要玩前端，后端是通过mock数据进行数据模拟加载
 
 起手式
 
-  node -v
-  v6.9.2
+node -v v6.9.2
 
-  npm -v
-  3.10.9
-  1. star and fork本项目
+npm -v 3.10.9
 
-  2. git clone ...
+star and fork本项目
 
-  3. cd vqlai.github.io
+git clone ...
 
-  4. npm install （建议使用淘宝镜像）
+cd vqlai.github.io
 
-  5. npm run dev
+npm install （建议使用淘宝镜像）
 
-  6. 浏览器打开 localhost:1008
+npm run dev
+
+浏览器打开 localhost:1008
 
 DEMO
 
 访问地址: <a href="https://vqlai.github.io/dist/#/" target="_blank">resume</a>
-  
+
 交流
 
-有任何问题可以在这里提issue
-可以加本人QQ: 695850246. 暗号是: vqlai
+有任何问题可以在这里提issue 
 
-some tips:
-未接入后端前,前端使用mock数据
+some tips: 未接入后端前,前端使用mock数据
 
 更新日志
 
-2017/3/28  样式调整，代码优化，项目代码全部上传
+2017/3/28 样式调整，代码优化，项目代码全部上传
 
-2017/3/26  增加页面的预加载和置顶功能，使用vue-spinner，vue-awesome-swiper优化交互
+2017/3/26 增加页面的预加载和置顶功能，使用vue-spinner，vue-awesome-swiper优化交互
 
-2017/3/21  新增footer联系页面
+2017/3/21 新增footer联系页面
 
-2017/3/17  优化页面title样式，修复父子间通信百分比显示错误bug
+2017/3/17 优化页面title样式，修复父子间通信百分比显示错误bug
 
-2017/3/12  增加skills页面的父子间通信
+2017/3/12 增加skills页面的父子间通信
 
-2017/3/12  页面优化，更好的兼容手机端，project模块的路由
+2017/3/12 页面优化，更好的兼容手机端，project模块的路由
 
-2017/2/21  添加了education与experience页面
+2017/2/21 添加了education与experience页面
 
-2017/2/19  添加数据mock，并且使用axios异步加载数据mock
+2017/2/19 添加数据mock，并且使用axios异步加载数据mock
 
-2017/2/19  添加导航，添加about模块
+2017/2/19 添加导航，添加about模块
 
-2017/2/19  首页头部更新
+2017/2/19 首页头部更新
 
-2017/2/18  更新本项目README
+2017/2/18 更新本项目README
