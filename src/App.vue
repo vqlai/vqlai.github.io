@@ -3,8 +3,9 @@
     <transition name="fade">
       <div v-show="!hidden">
         <!-- <img src="./assets/logo.png"> -->
-        <!-- 标签不能用下划线，只能用- -->
-        <v-header :baseInfo="baseInfo">
+        <!-- 标签受eslink影响不能用下划线，只能用- -->
+        <!-- v-if="!hidden"加这个主要是因为vue虚拟DOM初始化时particles还没有值，所以会不显示 -->
+        <v-header :baseInfo="baseInfo" v-if="!hidden">
           <vue-particles
             color="#ffffff"
             :particleOpacity="0.7"

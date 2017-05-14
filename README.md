@@ -4,7 +4,7 @@
 
 技术栈
 
-前端 es6 vue2 webpack2 vue-router2 axios vue-awesome-swiper vue-spinner
+前端 es6 vue2 webpack2 vue-router2 axios vue-awesome-swiper vue-spinner vue-particles
 
 后端 本人主要玩前端，后端是通过mock数据进行数据模拟加载
 
@@ -37,6 +37,7 @@ DEMO
 some tips: 未接入后端前,前端使用mock数据
 
 更新日志
+2017/5/14 header页使用vue-particles新增粒子效果
 
 2017/3/28 样式调整，代码优化，项目代码全部上传
 

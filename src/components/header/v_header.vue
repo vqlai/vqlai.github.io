@@ -1,7 +1,8 @@
 <template>
   <div class="v_header" id="header">
     <div class="v_container">
-       <slot></slot>
+    <!-- 分发组件内容 -->
+      <slot></slot>
       <div class="v_banner">
         <div class="v_headpic"><img src="./headpic.jpg" alt=""></div>
         <div class="v_baseinfo">
