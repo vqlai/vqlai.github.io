@@ -1,0 +1,22 @@
+/* 长文本隐藏 */
+.text_hidden{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+/*清除浮动*/
+.clearfix:before{display: table;content: "";box-sizing: border-box;}
+.clearfix:after{clear: both;display: table;content: "";box-sizing: border-box;}
+
+/*1像素边框*/
+  .border_1px{position: relative;}
+  .border_1px:after{display: block;position: absolute;left: 0;bottom: 0;width: 100%;border: 1px solid rgba(51, 51, 255, 0.6);content: ' '}
+  @media(-webkit-min-device-device-pixel-ratio: 1.5),(min-device-device-pixel-ratio: 1.5){
+    .border_1px::after{
+      -webkit-transform: scaleY(0.7);
+      transform:scaleY(0.7);
+    }
+  }
+  @media(-webkit-min-device-device-pixel-ratio: 2),(min-device-device-pixel-ratio: 2){
+    .border_1px::after{
+      -webkit-transform: scaleY(0.5);
+      transform:scaleY(0.5);
+    }
+  }
