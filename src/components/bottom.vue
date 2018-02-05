@@ -1,11 +1,11 @@
 <template>
   <div class="bottom">
   	<div class="container">
-  	<span class="tip">HOW To Find</span>
+  	<span class="tip">HOW TO FIND</span>
   	  <h1 class="title">{{title}}</h1>
   	  <span class="border"></span>
   	  <div class="content">
-  	    <img src="@/common/images/code.png">
+  	    <img src="../common/images/code.png">
   	    <dl>
   	      <dt>Contact By Email</dt>
   	      <dd>Mail1: <a href="mailto:info@example.com">info@example1.com</a></dd>

@@ -23,6 +23,7 @@
   	<about/>
   	<experience/>
   	<skill/>
+  	<project/>
   	<bottom/>
   </div>
 </template>
@@ -33,6 +34,7 @@ import bottom from '@/components/bottom'
 import about from '@/components/about'
 import experience from '@/components/experience'
 import skill from '@/components/skill'
+import project from '@/components/project'
 export default {
   name: 'home',
   data () {
@@ -44,7 +46,8 @@ export default {
   	bottom,
   	about,
   	experience,
-  	skill
+  	skill,
+  	project
   }
 }
 </script>

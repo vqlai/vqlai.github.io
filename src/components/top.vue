@@ -3,7 +3,7 @@
   	<div class="container">
   		<slot></slot>
   	  <div class="banner">
-  	    <div class="avator"><img src="@/common/images/avator.jpg" alt=""></div>
+  	    <div class="avator"><img src="../common/images/avator.jpg" alt=""></div>
   	    <div class="info">
   	      <h5 class="hello">Hello</h5>
   	      <h1>{{info.name}}</h1>
