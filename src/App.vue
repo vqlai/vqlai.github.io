@@ -30,10 +30,10 @@ export default {
       // 页面没有DTD，即没指定DOCTYPE时，使用document.body
       // IE和Firefox都是如此
       // 因为index页面加了<!DOCTYPE html>，所以要使用document.documentElement来获取
-      console.log(document.documentElement.clientHeight) // 获取客户端可视区域高度
-      console.log(document.documentElement.offsetHeight ) // 获取客户端可视区域高度 (包括边线的高) 
-      console.log(document.documentElement.scrollTop) // 获取滚动条滚动的距离
-      console.log(document.documentElement.scrollHeight) // 获取网页总高度
+      // console.log(document.documentElement.clientHeight) // 获取客户端可视区域高度
+      // console.log(document.documentElement.offsetHeight ) // 获取客户端可视区域高度 (包括边线的高) 
+      // console.log(document.documentElement.scrollTop) // 获取滚动条滚动的距离
+      // console.log(document.documentElement.scrollHeight) // 获取网页总高度
       this.topBtn = document.documentElement.scrollTop > document.documentElement.clientHeight ? true : false 
     }
   }

@@ -4,23 +4,19 @@
 
 技术栈
 
-前端 es6 vue2 webpack2 vue-router2 vue-awesome-swiper vue-particles
-
-后端 本人主要玩前端，后端是通过mock数据进行数据模拟加载
+前端 es6 vue2 webpack vue-router vue-awesome-swiper vue-particles
 
 起手式
 
-node -v v6.9.2
-
-npm -v 3.10.9
-
 star and fork本项目
+
+安装node
 
 git clone ...
 
 cd vqlai.github.io
 
-npm install （建议使用淘宝镜像）
+npm install （建议使用淘宝镜像cnpm）
 
 npm run dev
 
@@ -34,15 +30,17 @@ DEMO
 
 有任何问题可以在这里提issue，欢迎各位star
 
-some tips: 无后端,纯静态页面展示
-
 更新日志
 
-2018/2/6  代码优化，新增滚动按钮，至此基本完成第二版本的开发
+v2版本：
+
+2018/2/6  代码优化，新增滚动按钮，到此已完成第二版本的开发
 
 2018/2/5  新增我的项目板块，修复css引人背景图片路径错误,修复swiper无法自动播放
 
 2018/2/2  开始重构代码，修改代码结构，删除冗余代码，不断优化中。。。
+
+V1版本：
 
 2017/5/14 header页使用vue-particles新增粒子效果
 
