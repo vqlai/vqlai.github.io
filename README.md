@@ -32,7 +32,7 @@ DEMO
 
 交流
 
-有任何问题可以在这里提issue 
+有任何问题可以在这里提issue，欢迎各位star
 
 some tips: 无后端,纯静态页面展示
 
