@@ -1,6 +1,6 @@
 个人简历网站
 
-这是一个开源的个人简历项目，工作之余使用vue练练手，你可以在本项目中学习了解以下的框架/库，同时还可以了解关于代码结构组织,模块化,前端构建等内容。
+这是一个开源的个人简历项目，你可以在本项目中学习了解以下的框架/库，同时还可以了解关于vue代码结构组织，模块化，前端构建等内容，入门vue好选择。
 
 技术栈
 
@@ -20,11 +20,11 @@ npm install （建议使用淘宝镜像cnpm）
 
 npm run dev
 
-浏览器打开 localhost:1008
+浏览器打开 http://localhost:1008
 
 DEMO
 
-访问地址: <a href="https://vqlai.github.io/dist/#/" target="_blank">resume</a>
+访问地址: <a href="https://vqlai.github.io/dist/#/" target="_blank">个人简历</a>
 
 交流
 
